@@ -54,7 +54,7 @@ const interpolateColor = (color1: number[], color2: number[], factor: number) =>
 const Pricing = () => {
   const [sliderIndex, setSliderIndex] = useState(0); // Usaremos sliderIndex para el valor del slider (0, 1, 2)
   const [currentPrice, setCurrentPrice] = useState(pricingPlans[0].price);
-  const [sliderColor, setSliderColor] = useState('rgb(255, 0, 0)'); // Rojo inicial
+  const [sliderColor, setSliderColor] = useState("rgb(255, 0, 0)"); // Rojo inicial
 
   // Colores para interpolación: Rojo (Básico), Naranja (Estándar), Verde (Premium)
   const colors = [
