@@ -1,7 +1,7 @@
 'use client';
 
-import { motion, AnimatePresence, useSpring } from "framer-motion";
-import { useState, useEffect } from 'react';
+import { motion, AnimatePresence, } from "framer-motion";
+import { useState,  } from 'react';
 
 const pricingPlans = [
   {
