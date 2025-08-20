@@ -54,7 +54,7 @@ const Testimonials = () => {
               transition={{ delay: 0.3 + index * 0.1, duration: 0.6 }}
               whileHover={{ scale: 1.02 }}
             >
-              <p className='text-gray-700 italic mb-4 flex-grow'>\'{testimonial.quote}\'</p>
+              <p className='text-gray-700 italic mb-4 flex-grow'>"{testimonial.quote}"</p>
               <p className='text-blue-700 font-semibold'>{testimonial.author}</p>
               <p className='text-gray-500 text-sm'>{testimonial.title}</p>
             </motion.div>
